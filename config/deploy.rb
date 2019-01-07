@@ -8,7 +8,7 @@ set :repo_url, "git@github.com:darshand/aws_test.git"
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/dharshan/test"
+set :deploy_to, "/home/dharshan/aws_test"
 set :use_sude, true
 set :branch, 'master'
 set :linked_files, %w{config/master.key}
