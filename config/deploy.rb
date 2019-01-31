@@ -11,7 +11,7 @@ set :repo_url, "git@github.com:darshand/aws_test.git"
 set :deploy_to, "/home/ubuntu/aws_test"
 set :use_sude, true
 set :branch, 'master'
-set :linked_files, %w{config/master.key}
+set :linked_files, %w{config/database.yml}
 
 
 # Default value for :format is :airbrussh.
