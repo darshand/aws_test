@@ -60,5 +60,5 @@
 #     # password: "please use keys"
 #   }
 
-server '13.232.192.232', user: 'dharshan', roles: %w{ web app db }
+server '13.233.141.138', user: 'ubuntu', roles: %w{ web app db }
 set :ssh_options, { forward_agent: true }
